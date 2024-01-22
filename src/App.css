@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #18181b;
+    font-family: Poppins, sans-serif;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    min-height: 15vh;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    list-style: none;
+    gap: 5px;
+    
+}
+.nav-logo{
+   max-width: 50px;
+}
+
+.container{
+    
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1200px 100px #1d4ed8 ;
+    z-index: -100;
+    margin-top: 50px;
+}
+.blur2{
+    position: absolute;
+    box-shadow: 50px 50px 120px 50px #1d4ed8 ;
+    z-index: -100;
+    margin-top: -100px;
+    margin-left: 70px;
+}
+header{
+    position: relative;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    
+   
+}
+header .content{
+    color: white;
+}
+.container{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.306);
+    
+
+    
+}
+
+.alt{
+    position: relative;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    margin: auto;
+    color: white;
+    
+    
+}
+.hobi{
+    
+    padding-left: 10px;
+    
+        
+}
+.iletisim{
+    gap: 5px;
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    
+        
+}
+.iletisim i{
+    font-size: 50px;
+    cursor: pointer;
+    color: aqua;
+    
+}
+.iletisim i:hover{
+    color: #303f9f;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap')
+
